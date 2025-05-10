@@ -1,5 +1,4 @@
 #pragma once
-//pizdaa
 
 namespace PharmacyProject {
 
@@ -138,7 +137,7 @@ namespace PharmacyProject {
 				static_cast<System::Byte>(204)));
 			this->Margin = System::Windows::Forms::Padding(4, 4, 4, 4);
 			this->Name = L"MyForm";
-			this->Text = L"MyForm";
+			this->Text = L"сво";
 			this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
 			this->panel1->ResumeLayout(false);
 			this->ResumeLayout(false);
@@ -150,6 +149,7 @@ namespace PharmacyProject {
 private: System::Void panel1_Paint(System::Object^ sender, System::Windows::Forms::PaintEventArgs^ e) {
 }
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+
 }
 };
 }
